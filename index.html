@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Software Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-800 p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-white">My Portfolio</a>
+            <div class="text-white">
+                <a href="#" class="mr-4">Home</a>
+                <a href="#projects" class="mr-4">Projects</a>
+                <a href="#about" class="mr-4">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gray-900 bg-cover bg-center h-screen flex items-center">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Welcome to My Portfolio</h1>
+            <p class="text-lg text-gray-300">I am a programming prodigy with a heart as boundless as my coding prowess. My commitment to understanding my client's needs goes beyond mere algorithms. I delve deep into their aspirations, challenges, and dreams. Armed with empathy and technical understanding, I work hard to transform complex ideas into sleek, user-friendly applications that would leave my clients in awe.
+                With me on your team, you're not just getting a programmer; you're gaining a visionary collaborator who will stop at nothing to bring your digital dreams to life. So, if you're ready to revolutionize your digital presence and embark on a journey of innovation, look no further than Juma—the programmer with one year of experience and a lifetime of brilliance.</p>
+        </div>
+    </header>
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">About Me</h2>
+            <p class="text-lg text-gray-700">I am a seasoned software developer passionate about crafting elegant solutions to complex problems. With one year of learning experience in the field, I possess a strong foundation in various programming languages and technologies, including but not limited to Java, Python, JavaScript, and SQL. My expertise extends across full-stack development, encompassing front-end and back-end development, database management, and system architecture design.
+
+                I have demonstrated a keen eye for detail and a commitment to delivering high-quality software products that exceed trainers' expectations during my learning. I thrive in dynamic, collaborative environments where I can leverage my communication skills to work effectively with cross-functional teams and stakeholders. Additionally, my ability to adapt quickly to new technologies and methodologies allows me to stay at the forefront of industry trends and deliver innovative solutions that drive business success.
+                
+                I am a results-driven software developer dedicated to continuous learning and professional growth. My technical expertise, problem-solving skills, and collaborative mindset make me a valuable asset in any software development project..</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="py-20">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <!-- Project 1 -->
+            <div class="bg-white p-8 rounded shadow-md">
+                <h3 class="text-xl font-bold mb-2">Project 1</h3>
+                <p class="text-gray-700 mb-4">Description of Project 1.</p>
+                <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Project</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="bg-white p-8 rounded shadow-md">
+                <h3 class="text-xl font-bold mb-2">Project 2</h3>
+                <p class="text-gray-700 mb-4">Description of Project 2.</p>
+                <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Project</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="bg-white p-8 rounded shadow-md">
+                <h3 class="text-xl font-bold mb-2">Project 3</h3>
+                <p class="text-gray-700 mb-4">Description of Project 3.</p>
+                <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+            <p class="text-lg text-gray-700">Feel free to reach out to me via email or phone.</p>
+            <div class="mt-8">
+                <p class="text-lg text-gray-700">Email: saddamogolla@gmail.com</p>
+                <p class="text-lg text-gray-700">Phone: +254719215604</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="py-20">
+    <div class="container mx-auto text-center">
+        <form id="contactForm" class="max-w-lg mx-auto">
+            <div class="mb-6">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name"
+                    class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="mb-6">
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name"
+                    class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="mb-6">
+                <input type="email" id="email" name="email" placeholder="Email Address"
+                    class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="mb-6">
+                <textarea id="message" name="message" placeholder="Your Message"
+                    class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"></textarea>
+            </div>
+            <div>
+                <button type="submit"
+                    class="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+ 
+<!-- Footer -->
+<footer class="bg-gray-800 py-6 text-center text-white">
+    <div class="container mx-auto">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+
+</html>
