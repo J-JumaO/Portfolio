@@ -8,7 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
+<style>
+    /* header{
+        background-image: url(image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+</style>
+
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+     
 
     <!-- Navigation -->
     <nav class="bg-gray-800 p-6">
@@ -24,16 +34,18 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="bg-gray-900 bg-cover bg-center h-screen flex items-center">
-        <div class="container mx-auto text-center">
-            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Welcome to My Portfolio</h1>
-            <p class="text-lg text-gray-300">I am a programming prodigy with a heart as boundless as my coding prowess. My commitment to understanding my client's needs goes beyond mere algorithms. I delve deep into their aspirations, challenges, and dreams. Armed with empathy and technical understanding, I work hard to transform complex ideas into sleek, user-friendly applications that would leave my clients in awe.
+    <header class="bg-gray-900 bg-cover bg-center h-screen flex items-center" style="display: flex;">
+        <img src="image.jpg" alt="" width="400px" height="400px">
+        <div class="container mx-auto text-center" style="margin-left: 4em;">
+            <!-- <img src="image.jpg" alt=""> -->
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4" style="text-align: left;">Welcome to My Portfolio</h1>
+            <p class="text-lg text-gray-300" style="text-align: left;">I am a programming prodigy with a heart as boundless as my coding prowess. My commitment to understanding my client's needs goes beyond mere algorithms. I delve deep into their aspirations, challenges, and dreams. Armed with empathy and technical understanding, I work hard to transform complex ideas into sleek, user-friendly applications that would leave my clients in awe.
                 With me on your team, you're not just getting a programmer; you're gaining a visionary collaborator who will stop at nothing to bring your digital dreams to life. So, if you're ready to revolutionize your digital presence and embark on a journey of innovation, look no further than Juma—the programmer with one year of experience and a lifetime of brilliance.</p>
         </div>
     </header>
     <!-- About Section -->
     <section id="about" class="py-20 bg-gray-200">
-        <div class="container mx-auto text-center">
+        <div class="container mx-auto text-center" style="max-width: 800px;">
             <h2 class="text-3xl font-bold mb-8">About Me</h2>
             <p class="text-lg text-gray-700">I am a seasoned software developer passionate about crafting elegant solutions to complex problems. With one year of learning experience in the field, I possess a strong foundation in various programming languages and technologies, including but not limited to Java, Python, JavaScript, and SQL. My expertise extends across full-stack development, encompassing front-end and back-end development, database management, and system architecture design.
 
@@ -51,14 +63,14 @@
             <!-- Project 1 -->
             <div class="bg-white p-8 rounded shadow-md">
                 <h3 class="text-xl font-bold mb-2">Project 1</h3>
-                <p class="text-gray-700 mb-4">Description of Project 1.</p>
-                <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Project</a>
+                <p class="text-gray-700 mb-4">Grading system</p>
+                <a href="https://github.com/J-JumaO/grading-system/blob/ecbddf390bf62f215225a284f46adb7b7512922b/Grading%20Program%20.ipynb" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Project</a>
             </div>
             <!-- Project 2 -->
             <div class="bg-white p-8 rounded shadow-md">
                 <h3 class="text-xl font-bold mb-2">Project 2</h3>
-                <p class="text-gray-700 mb-4">Description of Project 2.</p>
-                <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Project</a>
+                <p class="text-gray-700 mb-4">My portfolio</p>
+                <a href="https://github.com/J-JumaO/Portfolio.git" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Project</a>
             </div>
             <!-- Project 3 -->
             <div class="bg-white p-8 rounded shadow-md">
